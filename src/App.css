@@ -1,0 +1,145 @@
+.App {
+  text-align: center;
+  width:300px;
+  height:auto;
+  border: 1px solid;
+}
+
+
+.container{
+  width:auto;
+  height:auto;
+  border:1px solid black;
+  /* display: flex;
+  flex-direction: column; */
+}
+
+.slider_nav{
+  width:100%;
+  /* height:max-content; */
+  height:50px;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  border:1px solid;
+}
+
+.slider_pics{
+  position: relative;
+  width:100%;
+  height:300px;
+  border:1px solid;
+  /* padding:2px 0px 2px 4px; */
+  display: flex;
+  /* flex-direction: column; */
+  /* flex-direction: row-reverse; */
+  /* justify-content: space-between; */
+  align-items: center;
+  overflow: hidden;
+}
+
+.slider_container{
+  /* padding: 25px auto; */
+  width:96%;
+  height:96%;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin: 5px 5px 3px 5px;
+  top: 2%;
+  /* margin-left:-196%; */
+  transition: all 2s ease;
+  /* /position: absolute; */
+}
+
+.scroll_center{
+  width:96%;
+  height:96%;
+  border: 1px solid black;
+  border-radius: 10px;
+  top: 2%;
+  margin-left:1.5%;
+  transition:margin-left 2s ease;
+}
+
+.scroll_left{
+  width:96%;
+  height:96%;
+  border: 1px solid black;
+  border-radius: 10px;
+  top: 2%;
+  margin-left:-98.5%;
+  transition:margin-left 2s ease;
+}
+
+.scroll_right{
+  width:96%;
+  height:96%;
+  border: 1px solid black;
+  border-radius: 10px;
+  top: 2%;
+  margin-left:196%;
+  transition:margin-left 2s ease;
+}
+
+img{
+  display: inline-block;
+  position: absolute;
+  border-radius: 50%;
+  width:200px;
+  height: 200px;
+  z-index: -2;
+  /* display: none; */
+}
+
+.container_slide{
+  background: radial-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.4));
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 286px;
+  /* border-radius: 10%; */
+  border: 1px solid;
+}
+
+.quote{
+  color: white;
+}
+
+/* img{
+  position: absolute;
+  width:50%;
+  z-index: 3;
+  visibility:hidden;
+} */
+
+h1{
+  display: flex;
+  margin: -70px auto auto -10px;
+  border-radius: 30%;
+  width:300px;
+  height: 300px;
+  font-size: 150px;
+  -webkit-text-stroke: 3px red;
+  color:white;
+  justify-content: center;
+  align-items: center;
+}
+
+h2{
+  height:50px;
+  width:100%;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  border: 1px solid;
+}
+
+button:hover{
+  cursor: pointer;
+}
+
+button{
+  width:50px;
+  height:50px;
+}
